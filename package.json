@@ -2,7 +2,7 @@
   "name": "vite-mui-dashboard",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/AnilBameta/Juspay-assignment",
+  "homepage": "https://anilbameta.github.io/Juspay-assignment",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
