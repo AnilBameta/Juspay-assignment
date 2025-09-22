@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { ThemeProvider, CssBaseline } from '@mui/material'
 import createAppTheme from './theme/theme'
@@ -10,6 +10,10 @@ import Order from './pages/Order'
 export default function App() {
   const [mode, toggleMode] = useDarkMode()
   const theme = React.useMemo(() => createAppTheme(mode), [mode])
+
+  useEffect(() => {
+    
+  })
 
   return (
     <ThemeProvider theme={theme}>
